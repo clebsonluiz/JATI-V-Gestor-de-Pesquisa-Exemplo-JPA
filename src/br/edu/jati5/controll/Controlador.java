@@ -191,6 +191,7 @@ public class Controlador implements ActionListener{
 						{
 							Facade.getInstance().atualizar(t_dado.getSelectedItem());
 							t_dado.setSelectedItem(null);
+							atualiza_graficos(estrutura_atual, janela.getTelaInfEstrutura().getTelaGrafico());
 						}
 						catch (ValidacaoException e1) 
 						{

@@ -2,16 +2,24 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="libs/JPA_Hibernate/antlr-2.7.7.jar"/>
-	<classpathentry kind="lib" path="libs/JPA_Hibernate/classmate-1.3.0.jar"/>
-	<classpathentry kind="lib" path="libs/JPA_Hibernate/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="libs/JPA_Hibernate/hibernate-commons-annotations-5.0.1.Final.jar"/>
-	<classpathentry kind="lib" path="libs/JPA_Hibernate/hibernate-core-5.2.10.Final.jar"/>
-	<classpathentry kind="lib" path="libs/JPA_Hibernate/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
-	<classpathentry kind="lib" path="libs/JPA_Hibernate/jandex-2.0.3.Final.jar"/>
-	<classpathentry kind="lib" path="libs/JPA_Hibernate/javassist-3.20.0-GA.jar"/>
-	<classpathentry kind="lib" path="libs/JPA_Hibernate/jboss-logging-3.3.0.Final.jar"/>
-	<classpathentry kind="lib" path="libs/JPA_Hibernate/jboss-transaction-api_1.2_spec-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="libs/JPA_2_2_Hibernate_5_4_4/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="libs/JPA_2_2_Hibernate_5_4_4/byte-buddy-1.9.11.jar"/>
+	<classpathentry kind="lib" path="libs/JPA_2_2_Hibernate_5_4_4/classmate-1.3.4.jar"/>
+	<classpathentry kind="lib" path="libs/JPA_2_2_Hibernate_5_4_4/dom4j-2.1.1.jar"/>
+	<classpathentry kind="lib" path="libs/JPA_2_2_Hibernate_5_4_4/FastInfoset-1.2.15.jar"/>
+	<classpathentry kind="lib" path="libs/JPA_2_2_Hibernate_5_4_4/hibernate-commons-annotations-5.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="libs/JPA_2_2_Hibernate_5_4_4/hibernate-core-5.4.4.Final.jar"/>
+	<classpathentry kind="lib" path="libs/JPA_2_2_Hibernate_5_4_4/istack-commons-runtime-3.0.7.jar"/>
+	<classpathentry kind="lib" path="libs/JPA_2_2_Hibernate_5_4_4/jandex-2.0.5.Final.jar"/>
+	<classpathentry kind="lib" path="libs/JPA_2_2_Hibernate_5_4_4/javassist-3.24.0-GA.jar"/>
+	<classpathentry kind="lib" path="libs/JPA_2_2_Hibernate_5_4_4/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="libs/JPA_2_2_Hibernate_5_4_4/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="libs/JPA_2_2_Hibernate_5_4_4/jaxb-api-2.3.1.jar"/>
+	<classpathentry kind="lib" path="libs/JPA_2_2_Hibernate_5_4_4/jaxb-runtime-2.3.1.jar"/>
+	<classpathentry kind="lib" path="libs/JPA_2_2_Hibernate_5_4_4/jboss-logging-3.3.2.Final.jar"/>
+	<classpathentry kind="lib" path="libs/JPA_2_2_Hibernate_5_4_4/jboss-transaction-api_1.2_spec-1.1.1.Final.jar"/>
+	<classpathentry kind="lib" path="libs/JPA_2_2_Hibernate_5_4_4/stax-ex-1.8.jar"/>
+	<classpathentry kind="lib" path="libs/JPA_2_2_Hibernate_5_4_4/txw2-2.3.1.jar"/>
 	<classpathentry kind="lib" path="libs/Others/jcalendar-1.4.jar"/>
 	<classpathentry kind="lib" path="libs/Others/jfreechart-1.5.0.jar"/>
 	<classpathentry kind="lib" path="libs/Others/postgresql-9.4.1212.jar"/>

@@ -4,6 +4,7 @@ import java.awt.BorderLayout;
 import java.awt.Component;
 import java.awt.Dimension;
 
+import javax.swing.JScrollPane;
 import javax.swing.JSplitPane;
 import javax.swing.JTable;
 
@@ -52,7 +53,10 @@ public class TelaInfoTabela extends MeuJPanel {
 		panel.add(btBuscar);
 		
 		table = new JTable();
-		meuPanel.add(table, BorderLayout.CENTER);
+		
+		JScrollPane scroll = new JScrollPane(table);
+		
+		meuPanel.add(scroll, BorderLayout.CENTER);
 		
 		meuJPanel = new MeuJPanel();
 		meuPanel.add(meuJPanel, BorderLayout.SOUTH);
